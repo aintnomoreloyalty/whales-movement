@@ -1,0 +1,13 @@
+manifestVersion: subsquid.io/v0.1
+name: whales-movement
+version: 1
+
+build:
+
+deploy:
+  addons:
+    postgres:
+  processor:
+    cmd: [ "node", "lib/processor" ]
+  api:
+    cmd: [ "npx", "squid-graphql-server"]

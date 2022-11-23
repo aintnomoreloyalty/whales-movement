@@ -10,7 +10,7 @@ const processor = new EvmBatchProcessor()
     '0x0000000000000000000000000000000000000000'
   ], {
     range: {
-      from: 10_000_000
+      from: 5_000_000
     },
     data: {
       transaction: {
